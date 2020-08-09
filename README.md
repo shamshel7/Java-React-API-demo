@@ -25,6 +25,13 @@ To run the frontend, open a separate terminal, navigate to `react-java-api-demo\
 
 This should open the page in your default browser. If it doesn't, navigate manually to `localhost:3000`.
 
+
+## To add new parameters
+To add new parameters:
+1. Add the new parameter into the database (either at `localhost:8080/h2-console` or manually in `react-java-api-demo\src\main\resources\data.sql`.
+2. Add the new parameter to the model at `react-java-api-demo\src\main\java\com\messages\entity\Messages.java`
+3. Re-run the code.
+
 ## Potential improvements
 With a little more time, I would have liked to make the following improvements:
 * Bundle the react code with Maven so you don't need to run mvn AND npm on separate ports.
