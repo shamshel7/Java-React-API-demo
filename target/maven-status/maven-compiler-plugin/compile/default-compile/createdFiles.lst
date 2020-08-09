@@ -1,0 +1,14 @@
+com\messages\AppController.class
+com\messages\entity\QFormData.class
+com\messages\entity\FormData.class
+com\messages\service\MessagesService.class
+com\messages\MessagesApplication.class
+com\messages\controller\MessagesController.class
+com\messages\service\FormDataService.class
+com\messages\repository\MessagesRepository.class
+com\messages\entity\QMessages.class
+com\messages\links\MessageLinks.class
+com\messages\repository\FormDataRepository.class
+com\messages\controller\FormDataController.class
+com\messages\entity\Messages.class
+com\messages\links\FormDataLinks.class
