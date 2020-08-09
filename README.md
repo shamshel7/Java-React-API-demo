@@ -4,3 +4,4 @@
 
 
 ## Potential improvements
+* Improve style
