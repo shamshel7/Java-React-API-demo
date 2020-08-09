@@ -16,6 +16,5 @@ export async function createMessage(data) {
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(data)
     })
-    console.log('SUBMITTING... ' + response)
     return await response.json();
 }

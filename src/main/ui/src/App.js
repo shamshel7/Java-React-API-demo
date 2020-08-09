@@ -20,7 +20,6 @@ class App extends Component {
     componentDidMount() {
         this.getFormData();
         this.getAllMessages();
-            
     }
 
     /**
@@ -128,16 +127,6 @@ class App extends Component {
         );
     }
 
-    /**
-     * Create new message and send to API
-     */
-    createMessage = () => {
-        createMessage(this.state.messageValues)
-            .then(response => {
-                console.log(response);
-            });
-    }
-
     handleChange(event) {
         let mv = this.state.messageValues;
         let fd = this.state.formData;
@@ -169,6 +158,7 @@ class App extends Component {
             messageData[fieldName] = mv[i].value;
         }
 
+        // Send new message data to API
         createMessage(messageData)
             .then(response => {
                 console.log(response);
