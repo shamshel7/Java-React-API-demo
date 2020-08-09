@@ -31,4 +31,4 @@ This should open the page in your default browser. If it doesn't, navigate manua
 With a little more time, I would have liked to make the following improvements:
 * Bundle the react code with Maven so you don't need to run mvn AND npm on separate ports.
 * Improve styling.
-* Add unit tests
+* Add unit tests.
