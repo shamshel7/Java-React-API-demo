@@ -38,3 +38,4 @@ With a little more time, I would have liked to make the following improvements:
 * Improve styling.
 * Add unit tests.
 * Improve the form validation, to make sure the email format is correct.
+* Clean up the URL after submitting a new entry.
