@@ -19,9 +19,7 @@ Navigate to the main folder (react-java-api-demo), and run the following command
 
 The backend should now be running on `localhost:8080`. You can go to `localhost:8080/api/messages` and `localhost:8080/api/formdata` to see objects used. You can also go to `localhost:8080/h2-console` to inspect the database. The login info can be found in `react-java-api-demo\src\main\resources\application.properties`.
 
-To run the frontend, open a separate terminal and run the following commands:
-
-`cd src\main\ui`
+To run the frontend, open a separate terminal, navigate to `react-java-api-demo\src\main\ui` and run the following command:
 
 `npm start`
 
