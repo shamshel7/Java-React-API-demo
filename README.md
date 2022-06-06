@@ -1,9 +1,5 @@
 # Java-React API demo
 
-## Intro
-Welcome to my Java-React API demo. I've created it as per the instructions, however I thought it would be interesting to try to add a database, so I have.
-
-
 ## Running the code
 The code is run using Maven, which can be downloaded here: http://maven.apache.org/download.cgi
 
