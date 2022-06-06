@@ -29,7 +29,6 @@ To add new parameters:
 3. Re-run the code.
 
 ## Potential improvements
-With a little more time, I would have liked to make the following improvements:
 * Bundle the react code with Maven so you don't need to run mvn AND npm on separate ports.
 * Improve styling.
 * Add unit tests.
